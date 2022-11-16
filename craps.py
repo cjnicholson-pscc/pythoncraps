@@ -8,3 +8,6 @@ def rollDice():
 
    return die1, die2, die1 + die2
 
+die1, die2, point = rollDice()
+
+print("You rolled ", die1, " and ", die2, " for total of", point)
